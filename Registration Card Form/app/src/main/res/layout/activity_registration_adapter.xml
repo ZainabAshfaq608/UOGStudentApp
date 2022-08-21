@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        >
+
+        <TextView
+            android:id="@+id/StudentName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/FatherName"
+            android:textSize="25sp"
+            android:text="Father Name"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/RollNo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Roll No"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Department"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/RegistrationNo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Registration No"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Semester"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Semester"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/DegreeStatus"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Degree Status"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/ContactNo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Contact No"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Program"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Program"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/Subject"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Subject"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/StuSignature"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="StudentSignature"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
